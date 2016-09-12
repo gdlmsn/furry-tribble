@@ -1,0 +1,162 @@
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+// endbower
+.container-voucher {
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+width:312px;
+height:400px;
+background-color: #ffffff;
+border: solid 1px #333;
+margin:auto;
+position: relative;
+font-family: "Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+}
+
+
+.container-voucher {
+	padding-top: 3px;
+	padding-bottom: 45px;
+}
+.container-voucher .voucher-inner, .container-voucher, .container-voucher  {
+	margin: 0 auto;
+}
+
+.options {
+	text-align: center;
+	margin: 0 auto;
+	width: 312px;
+}
+
+.block {
+	margin: 10px 0px;
+}
+
+.voucher-pass .voucher-front .voucher-secondary {
+    height: 60px;
+    margin: 5px 10px;
+	}
+
+.voucher-front .header-voucher {
+    position: relative;
+    white-space: nowrap;
+    height: 60px;
+    width: 100%;
+    padding: 5px 10px;
+    overflow: hidden;
+		vertical-align: middle;
+}
+
+.voucher-front .header-voucher .voucher-logo {
+    min-width: 5px;
+    max-width: 160px;
+    height: 50px;
+    float: left;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.voucher-front .header-voucher .voucher-logo img {
+    max-width: 160px;
+    height: 50px;
+    padding: 0 5px 0 5px;
+
+}
+
+.voucher-inner {
+    margin: 0;
+    position: relative;
+    font-family: "Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.voucher-inner .voucher-front .voucer-label {
+    font-size: 11px;
+    line-height: 13px;
+    min-height: 13px;
+    color: rgba(0,0,0,0.4);
+}
+
+.voucher-front .section-voucher .voucer-section {
+    padding: 10px 0;
+}
+
+.voucher-inner .voucher-front .header-voucher .voucher-logoText {
+    font-size: 18px;
+    line-height: 18px;
+    height: 50px;
+    line-height: 50px;
+    float: left;
+}
+
+.voucher-inner .voucher-front .header-voucher{
+    height: 50px;
+    float: right;
+}
+
+.voucher-stripSection {
+    height: 110px;
+		width:100%;
+}
+
+.destra {
+	    text-align: right;
+
+}
+
+.voucer-label {
+	font-size: 11px;
+line-height: 13px;
+min-height: 13px;
+
+}
+
+.voucher-front .body-voucher {
+	position: relative;
+	white-space: nowrap;
+	height: 60px;
+	width: 100%;
+	padding: 5px 10px;
+	overflow: hidden;
+	vertical-align: middle;
+}
+
+.voucher-front .body-voucher .voucher-expiry {
+	margin-top: 10px;
+  	width:50%;
+    float: left;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.voucher-front .info {
+	text-align: right;
+	border-color:rgb(0,0,0);
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	backface-visibility: hidden;
+
+}
+
+.card .voucher-back {
+	-webkit-transform: rotateY( 180deg );
+	 -moz-transform: rotateY( 180deg );
+	 -o-transform: rotateY( 180deg );
+	 transform: rotateY( 180deg );
+}
+
+.card.flipped {
+    -webkit-transform: rotateY( 180deg );
+    -moz-transform: rotateY( 180deg );
+    -o-transform: rotateY( 180deg );
+    transform: rotateY( 180deg );
+}
